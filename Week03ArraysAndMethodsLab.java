@@ -42,19 +42,19 @@ public class Week03ArraysAndMethodsLab {
 		// 7. Write an enhanced for loop that prints out each element in the array
 		System.out.println("Write an enhanced for loop that prints out each element in the array");
 		for (int element : arr)
-			System.out.println("element :" + element);
+			System.out.println("element: " + element);
 
 		// 8. Create a new variable called sum, write a loop that adds
 		// each element in the array to the sum
 		int sum = 0;
 		for (int e : arr)
 			sum += e;
-		System.out.println("sum :" + sum);
+		System.out.println("sum: " + sum);
 
 		// 9. Create a new variable called average and assign the average value of the
 		// array to it
 		double average = (double) sum / arr.length;
-		System.out.println("average :" + average);
+		System.out.println("average: " + average);
 
 		// 10. Write an enhanced for loop that prints out each number in the array
 		// only if the number is odd
